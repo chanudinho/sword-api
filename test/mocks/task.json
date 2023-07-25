@@ -1,0 +1,24 @@
+{
+    "validTask": {
+        "title": "my new job",
+        "summary": "I would love to have the opportunity to work with you.",
+        "userId": 1
+    },
+    "taskWithBigTitle": {
+        "title": "Lorem ipsum varius velit lorem elementum molestie fusce cubilia, dictumst vel vehicula senectus ante lobortis ut, tempus rutrum cubilia feugiat aliquam congue a. orci auctor eget duis aptent vehicula elit fames etiam, imperdiet euismod himenaeos lobortisaaaaaaaa",
+        "summary": "I would love to have the opportunity to work with you.",
+        "userId": 1
+    },
+    "taskWithBigSummary": {
+        "title": "my new job",
+        "summary": "Lorem ipsum1 vitae malesuada sapien maecenas diam nullam, hendrerit quis leo maecenas placerat praesent, suspendisse vel etiam vestibulum tincidunt lacinia. nulla habitant luctus litora curae mattis vitae suscipit maecenas risus, cubilia ullamcorper magna cursus eleifend a sollicitudin conubia, fermentum blandit condimentum nam quisque nisl consectetur arcu. consectetur eget et lacus molestie volutpat enim quam sem, velit praesent iaculis vulputate venenatis morbi sagittis. sociosqu senectus justo fermentum nibh lacinia eget ante purus eget, rhoncus accumsan rhoncus aenean cubilia ultricies velit ad ligula, at rutrum elementum metus etiam ante et aliquam. posuere nostra varius vel habitant rutrum tristique fames felis arcu, urna non interdum gravida ultrices enim fermentum porta, accumsan interdum lacinia proin eros duis turpis duis. Eu suspendisse libero vel laoreet dapibus sed id nisl, fusce odio varius nostra ipsum etiam porta fames vel, pulvinar donec egestas justo iaculis ornare et. iaculis ligula sodales est quisque fermentum ultricies laoreet turpis elit, sodales potenti orci maecenas lectus sit iaculis curae. neque dictum eleifend hendrerit egestas taciti duis mollis taciti tristique, facilisis interdum vehicula etiam tempor curae adipiscing. aptent tincidunt quisque malesuada hac nisi eget vestibulum, senectus erat tortor iaculis dui curabitur, cursus etiam libero imperdiet porta varius. blandit litora orci aenean et turpis sit phasellus metus purus gravida, himenaeos nam duis euismod sed urna nisi sodales ligula, fermentum dui ipsum mi enim sit enim sagittis etiam. Nam ullamcorper ut augue blandit enim vehicula iaculis ante urna pellentesque, sagittis diam integer taciti pharetra amet conubia sodales lorem, habitant porttitor hac ullamcorper risus fringilla mattis hac mollis. et aenean lacus bibendum tempor fames urna vel arcu suscipit, a posuere arcu curae vulputate taciti sagittis habitasse venenatis, ligula neque cursus vestibulum cras senectus vitae potenti. nunc etiam risus malesuada non laoreet proin potenti ultricies hendrerit, dictum lectus vivamus varius lectus odio euismod sapien etiam netus, mattis class primis semper nunc ut purus rutrum. magna ligula urna nam non feugiat venenatis vestibulum, aenean morbi volutpat aenean augue purus neque scelerisque, eu est quisque torquent mollis nec. Cursus congue turpis sed quisque integer nec ligula, litora donec sapien aenean netus amet, tempor pharetra placerat donec fringilla dolor.12345678910",
+        "userId": 1
+    },
+    "validUptateTask": {
+        "title": "my new job",
+        "summary": "I would love to have the opportunity to work with you.",
+        "userId": 1,
+        "taskId": 1,
+        "completedAt": "2023-07-23T18:25:43.511Z"
+    }
+}
