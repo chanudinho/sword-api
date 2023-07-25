@@ -6,7 +6,7 @@
     "scripts": {
         "start": "node index.js",
         "dev": "nodemon index.js",
-        "test": "exit 0",
+        "test": "jest --runInBand --detectOpenHandles --coverage --forceExit",
         "lint": "eslint --fix . --ext .js",
         "prepare": "husky install"
     },
