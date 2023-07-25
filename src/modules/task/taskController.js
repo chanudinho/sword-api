@@ -1,5 +1,6 @@
 const taskCreateService = require('./services/taskCreateService')
 const taskGetService = require('./services/taskGetService')
+const taskDestroyService = require('./services/taskDestroyService')
 
 class TaskController {
     static async createTask(req, res) {
@@ -27,6 +28,14 @@ class TaskController {
         const tasks = await taskGetService.getTasks({ userId, title, taskId, notDisplaySummary })
 
         return res.status(200).json(tasks)
+    }
+
+    static async destroyTask(req, res) {
+        const { taskId } = req.params
+
+        await taskDestroyService.destroyTask(taskId)
+
+        return res.status(204).json()
     }
 }
 
