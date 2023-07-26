@@ -1,0 +1,66 @@
+---
+# Configmap
+# Variables declaration
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mybackend-configmap
+data:
+  PORT: "5000"
+  
+  DB_CONNECTION: "mysql"
+  DATABASE_URL: "IP_OR_HOSTNAME"
+  DB_USER_NAME: "<USERNAME>"
+  DB_PASSWORD: "<PASSWORD>"
+  DB_DATABASE: "sword"
+  DB_PORT: "3306"
+  
+  JWT_SECRET: "51d91522-516b-442d-a946-a3864b90c79d"
+  
+  RABBITMQ_USER: "<USERNAME>"
+  RABBITMQ_PASSWORD: "<PASSWORD>"
+  RABBITMQ_HOST: "IP_OR_HOSTNAME"
+  RABBITMQ_QUEUE_NAME: "sword"
+---
+# Service
+apiVersion: v1
+kind: Service
+metadata:
+  name: mybackend-service
+  labels:
+    name: mybackend-service
+spec:
+  ports:
+    - port: 80
+      targetPort: 5000
+      name: http
+  selector:
+    app: mybackend-app
+---
+# Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mybackend-deploy
+  labels:
+    app: mybackend-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: mybackend-app
+  template:
+    metadata:
+      labels:
+        app: mybackend-app
+    spec:
+      containers:
+      - name: mybackend
+        image: mybackend-built-image
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 5000
+        envFrom:
+        - configMapRef:
+            name: mybackend-config
+---
