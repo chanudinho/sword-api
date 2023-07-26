@@ -1,6 +1,7 @@
 const Sequelize = require('sequelize')
 const config = require('../../config/database')
 const user = require('./user')
+const task = require('./task')
 
 const sequelize = new Sequelize(config.database, config.username, config.password, {
     ...config,
@@ -8,7 +9,8 @@ const sequelize = new Sequelize(config.database, config.username, config.passwor
 })
 
 const models = {
-    User: user.init(sequelize)
+    User: user.init(sequelize),
+    Task: task.init(sequelize)
 }
 
 Object.values(models)
