@@ -1,0 +1,9 @@
+require('dotenv').config({ path: 'env/.env' })
+const { resolve } = require('path')
+
+module.exports = {
+    'config': resolve(__dirname, 'src', 'config', 'database.js'),
+    'models-path': resolve(__dirname, 'src', 'sequelize', 'models'),
+    'migrations-path': resolve(__dirname, 'src', 'sequelize', 'migrations'),
+    'seeders-path': resolve(__dirname, 'src', 'sequelize', 'seeds'),
+}
