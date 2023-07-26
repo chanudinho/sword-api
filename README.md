@@ -15,16 +15,20 @@ Read this in other languages: [Português](README.pt.md)
 .
 ├── .husky                  # Husky settings
 ├── env                     # Folder with env files
-├── node_modules	    	# All dependencies installed
+├── node_modules            # All dependencies installed
 ├── src                     # Source files
 ├── test                    # Test files
 ├── .editorconfig
 ├── .eslintignore
 ├── .sequelizerc            # Setting up the path of the sequelize folders
 ├── commitlint.config.js    # Settings to keep a standard commit
+├── docker-compose.yml      #
+├── Dockerfile              #
 ├── index.js                # Entry point of api
+├── insomniaFile.json       # Insomnia route collection
 ├── jest.config.js          # Jest settings
 ├── jest.setup.js           # More settings before test run
+├── k8s.yaml                # kubernetes settings
 ├── package.json
 ├── README.pt.md
 └── README.md

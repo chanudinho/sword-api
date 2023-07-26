@@ -15,16 +15,20 @@ Acesse um dos links a seguir para ler em outros idiomas: [English](README.md)
 .
 ├── .husky                  # Consfigurações do husky
 ├── env                     # Pasta com os arquivos env
-├── node_modules	    	# Onde as dependências estão instaladas
+├── node_modules            # Onde as dependências estão instaladas
 ├── src                     # Pasta Raiz
 ├── test                    # Pasta dos arquivos de teste
 ├── .editorconfig
 ├── .eslintignore
 ├── .sequelizerc            # Configuração do caminho das pastas do sequelize
 ├── commitlint.config.js    # Configuração para padronização dos commits
+├── docker-compose.yml      #
+├── Dockerfile              #
 ├── index.js                # Ponto de entrada da api
+├── insomniaFile.json       # Arquivo com as rotas da aplicação para rodar no insomnia
 ├── jest.config.js          # Configurações do jest
 ├── jest.setup.js           # Mais configurações antes da execução do teste
+├── k8s.yaml                # Configuração do kubernetes
 ├── package.json
 ├── README.pt.md
 └── README.md
