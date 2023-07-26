@@ -25,5 +25,4 @@ jspm_packages/
 web_modules/
 .npm
 .eslintcache
-.env
 
