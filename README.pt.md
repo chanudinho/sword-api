@@ -4,6 +4,10 @@
 
 Este repositório faz parte do desafio da empresa Sword Health, sendo utilizado como exercício prático de desenvolvimento.
 
+observação 1: Peço desculpas pelo descuido, mas após o prazo, percebi que faltavam alguns detalhes no readme, no dockerfile e no docker-compose. Agora eu os atualizei de acordo. Se essas mudanças não forem aceitáveis, eu entendo perfeitamente. No entanto, você pode replicar facilmente as informações da branch staging, pois todas foram definidas antes do prazo. Obrigado pela sua compreensão.
+
+observação 2: Se a imagem do docker não funcionar porfavor verificar se o arquivo main.sh está com a quebra de linha LF
+
 Sempre que faço um projeto à parte, como esse, e não conheço os padrões que a empresa utiliza, tento seguir as boas práticas de código adotadas nesses dois projetos: [NodeBestPraticies](https://github.com/goldbergyoni/nodebestpractices) e [CleanCode](https://github.com/ryanmcdermott/clean-code-javascript)
 
 Acesse um dos links a seguir para ler em outros idiomas: [English](README.md)

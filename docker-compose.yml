@@ -26,5 +26,9 @@ services:
     environment:
       PORT: 5000
       DATABASE_URL: mysql
+      DB_PORT: 3306
       DB_PASSWORD: 1234
       RABBITMQ_HOST: rabbitmq
+      DB_MIGRATE: "true"
+      DB_MIGRATE_RETRIES: 20
+      DB_MIGRATE_WAIT_TIME: 3
