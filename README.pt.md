@@ -48,7 +48,7 @@ src
 
 ### Instalação
 
-Sword Api requer o [Node.js](https://nodejs.org/) v8+ para ser executado.
+Sword Api requer o [Node.js](https://nodejs.org/), [Mysql](https://www.mysql.com/) e [RabbitMQ](https://www.rabbitmq.com/) para ser executado.
 
 Instale as dependências e execute o aplicativo da seguinte maneira:
 

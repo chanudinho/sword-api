@@ -48,7 +48,7 @@ src
 
 ### Installation
 
-Sword Api requires [Node.js](https://nodejs.org/) v8+ to run.
+Sword Api requires [Node.js](https://nodejs.org/), [Mysql](https://www.mysql.com/) and [RabbitMQ](https://www.rabbitmq.com/) to run.
 
 Install the dependencies and run the app.
 
@@ -56,6 +56,8 @@ Install the dependencies and run the app.
 $ git clone https://github.com/chanudinho/sword-api.git
 $ cd sword-api
 $ npm install
+$ npx sequelize-cli db:create
+$ npx sequelize-cli db:migrate
 $ npm start
 ```
 
